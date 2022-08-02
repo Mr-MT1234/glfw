@@ -3,8 +3,8 @@ project "GLFW"
 	language "C"
 	staticruntime "off"
 
-        targetdir ( OutputBinDir .. "%{prj.name}-%{cfg.system}-%{cfg.buildcfg}")
-        objdir    ( OutputObjDir .. "%{prj.name}-%{cfg.system}-%{cfg.buildcfg}")
+        targetdir ( OutputBinDir .. "/%{prj.name}-%{cfg.system}-%{cfg.buildcfg}")
+        objdir    ( OutputObjDir .. "/%{prj.name}-%{cfg.system}-%{cfg.buildcfg}")
 
 	files
 	{
